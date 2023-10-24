@@ -1,19 +1,8 @@
-body {
-    background-image: linear-gradient(
-        #EAAC8B,
-        #E88C7D,
-        #E56B6F,
-        #B56576,
-        #6D597A,
-        #355070
-    );
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family:'Times New Roman', Times, serif
+.offcanvas-title, .navbar-brand {
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    font-size: 60px;
+body{
+    background-color: lightgray;
 }

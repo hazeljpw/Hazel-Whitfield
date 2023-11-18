@@ -5,12 +5,24 @@
 
 body{
     background-color: lightgray;
+    font-family: 'Black Ops One', sans-serif;
 }
 
 .navbar{
     background-color:  #212121;
 }
 
+.navbar-brand{
+    font-family: 'Black Ops One', sans-serif;
+}
+
+.offcanvas-body{
+    font-family: 'Black Ops One', sans-serif;
+}
+
+.offcanvas-title{
+    font-family: 'Black Ops One', sans-serif;
+}
 .img-fluid{
     margin-top: 10%;
     size: 50%;

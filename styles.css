@@ -4,12 +4,16 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgb(29, 27, 27);
     font-family: 'Black Ops One', sans-serif;
+    color: rgb(175, 169, 169);
 }
-
 .navbar{
     background-color:  #212121;
+}
+
+.navbar-brand:hover{
+    color:rgb(72, 75, 78)
 }
 
 .navbar-brand{

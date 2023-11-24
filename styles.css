@@ -28,7 +28,7 @@ body{
     font-family: 'Black Ops One', sans-serif;
 }
 .img{
-    margin-top: 20%;
+    margin-top: 13%;
     size: 50%;
     display: block;
     margin-left: auto;
@@ -37,6 +37,9 @@ body{
     box-shadow: 40px 7px 5px rgb(83, 79, 79);
 }
 
+.links{
+    margin-left: 19%;
+}
 
 .projects{
     border-style:double;

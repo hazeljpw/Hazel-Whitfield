@@ -6,10 +6,13 @@
 body{
     background-color: rgb(29, 27, 27);
     font-family: 'Black Ops One', sans-serif;
-    color:  lightgray;
+    color:  #d3d3d3;
 }
+
 .navbar{
-    background-color:  #212121;
+    background-color: transparent;
+    height: 20%;
+    position: sticky;
 }
 
 .navbar-brand:hover{
@@ -27,18 +30,13 @@ body{
 .offcanvas-title{
     font-family: 'Black Ops One', sans-serif;
 }
-.img{
-    margin-top: 8%;
-    size: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    box-shadow: 40px 7px 5px rgb(83, 79, 79);
+
+.remainigName{
+    font-size:200%
 }
 
-.links{
-    margin-left: 19%;
+.firstName{
+    font-size: 15vw;
 }
 
 .projects{
@@ -46,18 +44,33 @@ body{
     border-color: whitesmoke;
     margin: 2%;
 }
+
 .footer{
-    background-color:  #212121;
     position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
     text-align: center;
-    height:5%;
+    margin-top: 30%;
+    bottom: 0;
 }
 
 .container{
-    margin-top: 7%;
+    margin-top: 5%;
     margin-bottom: 5%;
+}
+.fab, .fas{
+    color: #d3d3d3;
+    margin-left: 1%;
+    padding: 0%;
+}
+.carousel {
+    z-index: 1;
+}
+
+.skills{
+    font-size:x-large;
+}
+
+.distance{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: grey;
 }

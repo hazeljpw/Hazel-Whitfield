@@ -1,6 +1,5 @@
 .offcanvas-title, .navbar-brand {
     font-size:xx-large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
@@ -19,16 +18,17 @@ body{
     color:rgb(72, 75, 78)
 }
 
-.navbar-brand{
+.navbar-brand, .offcanvas-title{
     font-family: 'Black Ops One', sans-serif;
+}
+
+.offcanvas-header{
+    background-color: rgb(29, 27, 27);
 }
 
 .offcanvas-body{
-    font-family: 'Black Ops One', sans-serif;
-}
-
-.offcanvas-title{
-    font-family: 'Black Ops One', sans-serif;
+    background-color: rgb(29, 27, 27);
+    font-size:x-large;
 }
 
 .remainigName{
@@ -47,13 +47,11 @@ body{
 
 .footer{
     position: fixed;
-    text-align: center;
-    margin-top: 30%;
     bottom: 0;
 }
 
 .container{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 5%;
 }
 .fab, .fas{

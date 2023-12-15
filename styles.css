@@ -3,24 +3,37 @@
 }
 
 body{
-    background-color: rgb(29, 27, 27);
+    background-image: url(./images/cyber.gif);
+    background-repeat:no-repeat;
+    background-color: black;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: 'Black Ops One', sans-serif;
-    color:  #d3d3d3;
+    color:  #ffffff;
 }
 
+
 .navbar{
-    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000, rgb(27, 166, 185));
     height: 20%;
-    position: sticky;
+    font-size: x-large
 }
 
 .navbar-brand:hover{
-    color:rgb(72, 75, 78)
+    color:rgb(0, 0, 0)
 }
 
-.navbar-brand, .offcanvas-title{
-    font-family: 'Black Ops One', sans-serif;
+#links:hover{
+    color:rgb(0, 0, 0)
 }
+
+.navbar-brand, #links{
+    font-family: 'Black Ops One', sans-serif;
+    color: white;
+}
+
+
 
 .offcanvas-header{
     background-color: rgb(29, 27, 27);
@@ -41,13 +54,14 @@ body{
 
 .projects{
     border-style:double;
-    border-color: whitesmoke;
+    color: #000000;
     margin: 2%;
+    background-color: rgb(27, 166, 185);
 }
 
 .footer{
-    position: fixed;
-    bottom: 0;
+    padding: 10px;
+    background-image: linear-gradient(180deg, rgb(27, 166, 185), #000000);
 }
 
 .container{

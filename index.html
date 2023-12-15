@@ -17,45 +17,27 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <h1>HW</h1>
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">HW</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">HW</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <!-- Home -->
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-
-            <!-- About -->
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-
-            <!-- Projects -->
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-
-            <!-- Contact -->
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" id="links" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="links" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="links" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="links" href="/projects.html">Projects</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -106,9 +88,62 @@
   </div>
   </div>
 
+    <!-- ABOUT ME -->
+    <div class="container" id="about">
+      <h5>ABOUT ME</h5>
+      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+  
+        1914 translation by H. Rackham</p>
+    </div>
+
+<!-- CONTACT -->
+<div class="container" id="contact">
+  <h1>CONTACT ME</h1>
+  <div>Email: <a href="mailto:hazeljpw@outlook.com">hazeljpw@outlook.com</a></div>
+  <div>LinkedIn: <a href="https://www.linkedin.com/in/hazel-whitfield-245a5626a/">Hazel Whitfield</a></div>
+</div>
+
+<div class="container">
+  <div class="row row-content text-white mt-5 mb-5">
+      <div class="col-12 ml-5">
+        <h3>Drop a Message</h3>
+      </div>
+
+      <hr>
+
+      <div class="col-md-10 ml-5 mr-5">
+          <form>
+            <div class="form-group row mt-3">
+              <label for="firstName" class="col-md-2 col-form-label">Name</label>
+              <div class="col-md-10">
+                  <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Name" />
+              </div>
+            </div>
+            <div class="form-group row mt-3">
+              <label for="email" class="col-md-2 col-form-label">Email</label>
+              <div class="col-md-10">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+              </div>
+            </div>
+            <div class="form-group row mt-3">
+              <label for="feedback" class="col-md-2 col-form-label">Message</label>
+              <div class="col-md-10"> 
+                  <textarea class="form-control" id="feedback" placeholder="Message" name="Feedback" rows="8"></textarea>
+              </div>
+            </div>
+            <div class="form-group row mt-3">
+              <div class="offset-md-2 col-md-10">
+                  <button type="submit" class="btn btn-secondary">SEND</button>
+              </div>
+            </div>
+          </form>
+      </div>
+  </div>
+</div>
+
   <!-- FOOTER -->
-  <footer class="footer">
-    <div>
+  <footer class="footer fixed-bottom">
+    <div class="text-center">
       <a href="./data/resume.pdf" target="_blank">
         <i class="fas fa-file-pdf fa-4x"></i>
       </a>

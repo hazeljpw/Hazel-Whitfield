@@ -1,4 +1,4 @@
-.offcanvas-title, .navbar-brand {
+.offcanvas-title, .navbar-brand{
     font-size:xx-large;
 }
 
@@ -13,11 +13,10 @@ body{
     color:  #ffffff;
 }
 
-
 .navbar{
     background-image: linear-gradient(180deg, #000000, rgb(27, 166, 185));
     height: 20%;
-    font-size: x-large
+    font-size:large;
 }
 
 .navbar-brand:hover{
@@ -33,7 +32,14 @@ body{
     color: white;
 }
 
-
+.glass-bg{
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
 
 .offcanvas-header{
     background-color: rgb(29, 27, 27);
@@ -44,45 +50,48 @@ body{
     font-size:x-large;
 }
 
-.remainigName{
-    font-size: 9vw;
+span{
+    margin-bottom: 35%;
+}
+.name{
+    font-size: 7vw;
+    margin-top: 8%;
 }
 
-.firstName{
-    font-size: 12vw;
+.skills{
+    padding: 4%;
+    margin-top: 5%;
+}
+
+#about{
+    padding: 5%;
+    margin-top: 13%;
+}
+
+#contact{
+    padding: 4%;
+    margin-bottom: 5%;
+    margin-top: 13%;
 }
 
 .projects{
     border-style:double;
-    color: #000000;
+    color: white;
     margin: 2%;
-    background-color: rgb(27, 166, 185);
 }
 
-.footer{
-    padding: 10px;
-    background-image: linear-gradient(180deg, rgb(27, 166, 185), #000000);
-}
-
-.container{
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
 .fab, .fas{
     color: #d3d3d3;
     margin-left: 1%;
     padding: 0%;
-}
-.carousel {
-    z-index: 1;
 }
 
 .skills{
     font-size:x-large;
 }
 
-.distance{
-    margin-left: 5%;
-    margin-right: 5%;
-    color: grey;
+.footer{
+    margin-top: 5%;
+    padding: 10px;
+    background-image: linear-gradient(180deg, rgb(27, 166, 185), #000000);
 }

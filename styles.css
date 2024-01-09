@@ -50,9 +50,6 @@ body{
     font-size:x-large;
 }
 
-span{
-    margin-bottom: 35%;
-}
 .name{
     font-size: 7vw;
     margin-top: 7%;
@@ -80,6 +77,10 @@ span{
     padding: 4%;
     margin-bottom: 8%;
     margin-top: 8%;
+}
+
+#myProjects{
+    margin-bottom: 10%;
 }
 
 .projects{

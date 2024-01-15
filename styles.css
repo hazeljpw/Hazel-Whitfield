@@ -60,23 +60,72 @@ body{
     margin-top: 3%;
 }
 
-#about{
-    padding: 5%;
-    margin-top: 13%;
+.eachSkills{
+    font-size:large !important;
 }
 
-.profile-picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    margin-top: 3%;
+#about{
+    padding: 5%;
+    margin-top: 5%;
 }
+
+.image-wrapper {
+    width: 350px;
+    height: 100px;
+    position: relative;
+    margin: 30vh auto;
+    margin-top: 7%;
+  }
+  
+  .image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+  }
+
+  .profile-picture-1 {
+    clip-path: polygon(0 0, 0 32%, 28% 0);
+    transform: translate(-10px, -10px);
+    transition: transform 300ms ease;
+    transform-origin: top;
+    .image-wrapper:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+  .profile-picture-2 {
+    clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
+    transform: translate(-30px, 5px);
+    transition: transform 300ms ease;
+    .image-wrapper:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+  .profile-picture-3 {
+    clip-path: polygon(100% 0, 100% 65%, 74% 100%, 17% 100%, 90% 0);
+    transform: translate(-18px, -10px);
+    transition: transform 300ms ease;
+    .image-wrapper:hover & {
+      transform: translate(0,0);
+    }
+  }
+
+  .profile-picture-4 {
+    clip-path: polygon(100% 65%, 74% 100%, 100% 100%);
+    transform: translate(-32px, 5px);
+    transition: transform 300ms ease;
+    transform-origin: top;
+    .image-wrapper:hover & {
+      transform: translate(0,0);
+    }
+  }
 
 #contact{
     padding: 4%;
     margin-bottom: 25%;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 #myProjects{
@@ -105,4 +154,8 @@ body{
     margin-top: 5%;
     padding: 10px;
     background-image: linear-gradient(180deg, rgb(27, 166, 185), #000000);
+}
+
+#footerIcon{
+    text-decoration: none; /*removes the undeline showing after resume & linkedin icon */
 }

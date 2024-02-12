@@ -3,42 +3,28 @@
 }
 
 body{
-    background-image: url(./images/cyber.gif);
-    background-repeat:no-repeat;
-    background-color: black;
-    background-size:cover;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: 'Black Ops One', sans-serif;
-    color:  #ffffff;
+    background: linear-gradient(90deg, #F5F4EF 50%, #A4A382  50%);
+    padding: 3%;
 }
 
 .navbar{
-    background-image: linear-gradient(180deg, #000000, rgb(27, 166, 185));
-    height: 20%;
-    font-size:large;
+    font-size:x-large;
 }
 
-.navbar-brand:hover{
-    color:rgb(0, 0, 0)
+#links{
+    color: #000000;
+    text-decoration: none;
 }
 
-#links:hover{
-    color:rgb(0, 0, 0)
+a{
+    color:black;
 }
-
-.navbar-brand, #links{
-    font-family: 'Black Ops One', sans-serif;
-    color: white;
-}
-
 .glass-bg{
-    background: rgba(255, 255, 255, 0.17);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(6.1px);
-    border: 1px solid rgba(255, 255, 255, 0.32);
+    border: 1px solid rgba(157, 152, 152, 0.32);
 }
 
 .offcanvas-header{
@@ -50,14 +36,9 @@ body{
     font-size:x-large;
 }
 
-.name{
-    font-size: 7vw;
-    margin-top: 7%;
-}
-
 .skills{
     padding: 4%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .eachSkills{
@@ -66,84 +47,35 @@ body{
 
 #about{
     padding: 5%;
+    padding-bottom: 9%;
     margin-top: 5%;
 }
 
-.image-wrapper {
-    width: 350px;
-    height: 100px;
-    position: relative;
-    margin: 30vh auto;
-    margin-top: 7%;
-  }
-  
-  .image-wrapper img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform-origin: left;
-  }
-
-  .profile-picture-1 {
-    clip-path: polygon(0 0, 0 32%, 28% 0);
-    transform: translate(-10px, -10px);
-    transition: transform 300ms ease;
-    transform-origin: top;
-    .image-wrapper:hover & {
-      transform: translate(0,0);
-    }
-  }
-
-  .profile-picture-2 {
-    clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
-    transform: translate(-30px, 5px);
-    transition: transform 300ms ease;
-    .image-wrapper:hover & {
-      transform: translate(0,0);
-    }
-  }
-
-  .profile-picture-3 {
-    clip-path: polygon(100% 0, 100% 65%, 74% 100%, 17% 100%, 90% 0);
-    transform: translate(-18px, -10px);
-    transition: transform 300ms ease;
-    .image-wrapper:hover & {
-      transform: translate(0,0);
-    }
-  }
-
-  .profile-picture-4 {
-    clip-path: polygon(100% 65%, 74% 100%, 100% 100%);
-    transform: translate(-32px, 5px);
-    transition: transform 300ms ease;
-    transform-origin: top;
-    .image-wrapper:hover & {
-      transform: translate(0,0);
-    }
-  }
+#sectionTitle{
+    font-family: "Euphoria Script", cursive;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: 75px;
+}
 
 #contact{
     padding: 4%;
-    margin-bottom: 25%;
     margin-top: 5%;
 }
 
-#myProjects{
-    margin-bottom: 25%;
-}
+#projects{
+    padding: 4%;
+    margin-top: 5%;
+    padding-bottom: 68%;
 
-.projects{
-    margin: 2%;
 }
 
 .cinephilist{
     margin-bottom: 8%;
 }
 
-.fab, .fas{
-    color: #d3d3d3;
-    margin-left: 1%;
-    padding: 0%;
+.fab{
+    color: #000000;
 }
 
 .skills{
@@ -154,8 +86,4 @@ body{
     margin-top: 5%;
     padding: 10px;
     background-image: linear-gradient(180deg, rgb(27, 166, 185), #000000);
-}
-
-#footerIcon{
-    text-decoration: none; /*removes the undeline showing after resume & linkedin icon */
 }
